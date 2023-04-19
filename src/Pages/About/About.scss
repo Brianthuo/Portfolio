@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Poppins:wght@300&family=Roboto+Mono&family=Sevillana&family=Yeon+Sung&display=swap');
+@import '../../breakpoints.scss';
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #082567;
+    @include sm{
+        flex-direction: column;
+
+        }
+    @include md{
+    
+    }
+    @include lg{
+    
+    
+    }
+    @include xl{
+    
+    }
+    @include breakpoint(1200px){
+    
+    }
+
+
+   .portrate{
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+    @include sm{
+       width: 100%;
+
+        }
+    @include md{
+    
+    }
+    @include lg{
+    
+    
+    }
+    @include xl{
+    
+    }
+    @include breakpoint(1200px){
+    
+    }
+
+
+    img{
+        width: 50%;
+        height: 50vh;
+        border: 2px solid #00FFFF;
+        border-radius: 5px;
+        transition: .5s;
+
+        @include sm{
+           width: 70%;
+
+            }
+        @include md{
+        
+        }
+        @include lg{
+        
+        
+        }
+        @include xl{
+        
+        }
+        @include breakpoint(1200px){
+        
+        }
+
+        &:hover{
+            border-radius: 2% 15%;
+
+        }
+    }
+
+    }
+
+    .info{
+        width: 60%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        @include sm{
+            width: 100%;
+            justify-content: center;
+
+            }
+        @include md{
+        
+        }
+        @include lg{
+        
+        
+        }
+        @include xl{
+        
+        }
+        @include breakpoint(1200px){
+        
+        }
+
+
+       .sub-conteiner{
+            width: 70%;
+           h1{
+               font-size: 82px;
+               color: #00ffff;
+               font-family: 'Yeon Sung', cursive;
+
+               @include sm{
+               font-size: 52px;
+
+                }
+            @include md{
+            
+            }
+            @include lg{
+            
+            
+            }
+            @include xl{
+            
+            }
+            @include breakpoint(1200px){
+            
+            }
+
+           }
+           p{
+            text-transform: capitalize;
+                font-family: 'Roboto Mono', monospace;
+                font-size: 18px;
+                font-weight: 400;
+                @include sm{
+                    font-size: 16px;
+    
+                    }
+                @include md{
+                
+                }
+                @include lg{
+                
+                
+                }
+                @include xl{
+                
+                }
+                @include breakpoint(1200px){
+                
+                }
+
+           }
+       }
+
+    }
+}

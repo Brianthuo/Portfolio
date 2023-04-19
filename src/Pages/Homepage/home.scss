@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Poppins:wght@300&family=Roboto+Mono&family=Sevillana&family=Yeon+Sung&display=swap');
+@import '../../breakpoints.scss';
+
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #0047ab 45%, #012169 calc(50% - 50px));
+    background-attachment: fixed;
+
+    @include sm{
+    
+
+        }
+    @include md{
+    
+    }
+    @include lg{
+    
+    
+    }
+    @include xl{
+    
+    }
+    @include breakpoint(1200px){
+    
+    }
+
+    .navbar{
+        width: 100%;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: fixed;
+
+            @include sm{
+                bottom: 2rem;
+                left: 4rem;
+                background-color: #00ffffa9;
+                width: 50%;
+                border-radius: 20px;
+                width: 70%;
+                
+
+                }
+            @include md{
+            
+            }
+            @include lg{
+            
+            
+            }
+            @include xl{
+            
+            }
+            @include breakpoint(1200px){
+            
+            }
+
+
+
+         ul{
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+            padding: 10px;
+
+            @include sm{
+                gap: .5rem;
+
+                }
+            @include md{
+            
+            }
+            @include lg{
+            
+            
+            }
+            @include xl{
+            
+            }
+            @include breakpoint(1200px){
+            
+            }
+
+            &:hover{
+                background-color: #082567;
+                transition: .5s;
+                border-radius: 15px;
+                color: #00ffff;
+                cursor: pointer;
+            }
+
+             li{
+                list-style: none;
+                text-decoration: none;
+                align-items: center;
+                text-transform: capitalize;
+                margin-top: 3px;
+                padding: 15px;
+                font-size: 17px;
+                display: flex;
+                align-items: center;
+                color: #00ffff;
+
+                @include sm{
+                    padding: 18.5px;
+
+                    &:hover{
+                        color: #00ffff;
+                    }
+    
+                    }
+                @include md{
+                
+                }
+                @include lg{
+                
+                
+                }
+                @include xl{
+                
+                }
+                @include breakpoint(1200px){
+                
+                }
+
+
+                .list{
+                    @include sm{
+                        display: none;
+        
+                        }
+                    @include md{
+                    
+                    }
+                    @include lg{
+                    
+                    
+                    }
+                    @include xl{
+                    
+                    }
+                    @include breakpoint(1200px){
+                    
+                    }
+                    
+                }
+
+                .icon{
+                    @include sm{
+                        font-size: 20px;
+                        color: #fff;
+
+                        &:hover{
+                            color: #00ffff;
+                        }
+        
+                        }
+                    @include md{
+                    
+                    }
+                    @include lg{
+                    
+                    
+                    }
+                    @include xl{
+                    
+                    }
+                    @include breakpoint(1200px){
+                    
+                    }
+
+                }
+
+                &:hover{
+                    background-color: rgba(0, 0, 0, 0.432);
+                    border-radius: 15px;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+        
+
+    }
+
+    .content-container{
+        display: flex;
+        gap: 4rem;
+        align-items: center;
+        justify-self: center;
+        height: 100vh;
+        width: 80%;
+        margin-left: 8rem;
+
+        @include sm{
+            flex-direction: column;
+            padding-top: 2rem;
+            margin-left: 3rem;
+            gap: .5rem;
+
+            }
+        @include md{
+        
+        }
+        @include lg{
+        
+        
+        }
+        @include xl{
+        
+        }
+        @include breakpoint(1200px){
+        
+        }
+
+        .content{
+            flex: 3;
+            
+            h1{
+                text-transform: capitalize;
+                font-family: 'Roboto Mono', monospace;
+                font-size: 28px;
+                font-style: italic;
+                font-weight: 400;
+
+                .name{
+                    font-size: 48px;
+                    color: white;
+                    font-family: 'Sevillana', cursive;
+                    font-weight: 800;
+
+                }
+                .title{
+                    font-size: 82px;
+                    color: #00ffff;
+                    font-family: 'Yeon Sung', cursive;
+                }
+            }
+
+            p{
+                font-size: 24px;
+                font-weight: 300;
+                text-align: start;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            button{
+                font-size: 14px;
+                font-weight: 300;
+                margin-top: 10px;
+                width: 150px;
+                padding: 10px;
+                background-color: transparent;
+                border: 2px solid #00ffff;
+                color: #fff;
+                border-radius: 15px;
+                transition: .5s;
+                
+
+                &:hover{
+                    background-color: #00ffff;
+                    color: #082567;
+                }
+
+                @include sm{
+                    color: #000;
+    
+                    }
+                @include md{
+                
+                }
+                @include lg{
+                
+                
+                }
+                @include xl{
+                
+                }
+                @include breakpoint(1200px){
+                
+                }
+
+            }
+
+            .icon-links{
+                width: 30%;
+                height: 10vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .icon{
+                    width: 25px;
+                    height: 25px;
+                    padding: 10px;
+                    border: 1px solid #00FFFF;
+                    border-radius: 40%;
+                    color: #00FFFF;
+                    box-shadow: 13px 3px 14px 2px rgba(0,0,0,0.61);
+                    -webkit-box-shadow: 13px 3px 14px 2px rgba(0,0,0,0.61);
+                    -moz-box-shadow: 13px 3px 14px 2px rgba(0,0,0,0.61);
+
+                    &:hover{
+                        background-color: #00ffff;
+                        color: #082567;
+                    }
+                }
+
+                @include sm{
+                    width: 50%;
+                    }
+                @include md{
+                
+                }
+                @include lg{
+                
+                
+                }
+                @include xl{
+                
+                }
+                @include breakpoint(1200px){
+                
+                }
+            }
+            
+        }
+
+        .image{
+            flex: 2;
+            width: fit-content;
+            height: 80vh;
+            object-fit: fill;
+
+            @include sm{
+                background-color: transparent;
+                display: none;
+                }
+            @include md{
+            
+            }
+            @include lg{
+            
+            
+            }
+            @include xl{
+            
+            }
+            @include breakpoint(1200px){
+            
+            }
+        }
+    }
+
+    .contact{
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        font-size: 50px;
+        color: lime;
+
+        @include sm{
+            top: 2rem;
+           font-size: 40px;
+           display: none;
+
+            }
+        @include md{
+        
+        }
+        @include lg{
+        
+        
+        }
+        @include xl{
+        
+        }
+        @include breakpoint(1200px){
+        
+        }
+
+    }
+
+    
+} 
