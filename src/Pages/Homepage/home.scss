@@ -220,6 +220,8 @@
 
         .content{
             flex: 3;
+            height: auto;
+            
             
             h1{
                 text-transform: capitalize;
@@ -247,6 +249,7 @@
                 font-weight: 300;
                 text-align: start;
                 font-family: 'Poppins', sans-serif;
+                color: #ffffffec;
             }
 
             button{
@@ -288,11 +291,12 @@
             }
 
             .icon-links{
-                width: 30%;
+                width: 50%;
                 height: 10vh;
                 display: flex;
-                justify-content: space-between;
+                justify-content: flex-start;
                 align-items: center;
+                gap: 2rem;
 
                 .icon{
                     width: 25px;
@@ -329,7 +333,23 @@
                 
                 }
             }
+            @include sm{
+                
+                margin-bottom: 1.5rem;
+                }
+            @include md{
             
+            }
+            @include lg{
+            
+            
+            }
+            @include xl{
+            
+            }
+            @include breakpoint(1200px){
+            
+            }
         }
 
         .image{

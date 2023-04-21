@@ -36,7 +36,7 @@ const home = () => {
 
         <div className="content-container">
         <div className="content">
-            <h1> Hello i'm <br /> <span className='name'>Brian thuo</span> <br /> 
+            <h1> Hello i'm <br /> <span className='name'>Brian Churchill thuo</span> <br /> 
             I'm a <span className='title'> web developer.</span> </h1>
             <p>
             I assist business and individuals create a website that is <br /> tailored specifically to their

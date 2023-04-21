@@ -2,7 +2,7 @@
 @import '../../breakpoints.scss';
 .about{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     background-color: #082567;
     @include sm{
@@ -161,6 +161,11 @@
                 }
 
            }
+       }
+       .info-content{
+        p{
+            color: #ffffffec;
+        }
        }
 
     }
