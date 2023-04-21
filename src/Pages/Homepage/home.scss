@@ -34,10 +34,11 @@
         align-items: center;
         display: flex;
         position: fixed;
+        margin-top: 1rem;
 
             @include sm{
                 bottom: 2rem;
-                left: 4rem;
+                left: 3.5rem;
                 background-color: #00ffffa9;
                 width: 50%;
                 border-radius: 20px;
@@ -86,7 +87,7 @@
             }
 
             &:hover{
-                background-color: #082567;
+                background-color: #0077c0;
                 transition: .5s;
                 border-radius: 15px;
                 color: #00ffff;
@@ -312,6 +313,7 @@
 
                 @include sm{
                     width: 50%;
+                    margin-bottom: 1.5rem;
                     }
                 @include md{
                 
