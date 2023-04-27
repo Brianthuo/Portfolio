@@ -291,7 +291,7 @@
             }
 
             .icon-links{
-                width: 2rem;
+                width: 50%;
                 height: 10vh;
                 display: flex;
                 justify-content: flex-start;
@@ -300,8 +300,8 @@
                 gap: 2rem;
 
                 .icon{
-                    width: 25px;
-                    height: 25px;
+                    width: 30px;
+                    height: 30px;
                     padding: 10px;
                     border: 1px solid #00FFFF;
                     border-radius: 40%;
@@ -317,7 +317,7 @@
                 }
 
                 @include sm{
-                    width: 50%;
+                    width: 60%;
                     margin-bottom: 1.5rem;
                     }
                 @include md{
