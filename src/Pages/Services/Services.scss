@@ -1,7 +1,7 @@
 @import '../../breakpoints.scss';
 .services{
     width: 100%;
-    min-height: 90vh;
+    min-height: 70vh;
     background-color: #082567;
     display: flex;
     align-items: center;
@@ -54,31 +54,13 @@
     
 
     .image-content{
-        width: 80%;
-        min-height: 100vh;
-        display: flex;
+        width: 80vw;
+        min-height: 70vh;
+        display: grid;
+        grid-gap: 2em;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         align-items: center;
-        justify-content: space-between;
-         
-        @include sm{
-            flex-direction: column;
-            gap: 2rem;
-           
     
-            }
-        @include md{
-        
-        }
-        @include lg{
-        
-        
-        }
-        @include xl{
-        
-        }
-        @include breakpoint(1200px){
-        
-        }
 
         .webdev{
             h4{
@@ -108,8 +90,10 @@
                 }
             }
             img{
-                width: 120%;
+                width: 100%;
                 height: 55vh;
+                object-fit: cover;
+
 
                 @include sm{
                 width: 100%;
@@ -160,8 +144,9 @@
                 }
             }
             img{
-                width: 120%;
+                width: 100%;
                 height: 55vh;
+                object-fit: cover;
 
                 @include sm{
                 width: 100%;
@@ -177,10 +162,10 @@
                 
                 }
                 @include xl{
-                
+                  
                 }
                 @include breakpoint(1200px){
-                
+                  
                 }
             }
         }
@@ -214,10 +199,11 @@
             img{
                 width: 100%;
                 height: 55vh;
+                object-fit: cover;
 
                 @include sm{
-                    width: 100%;
-                    height: 55vh;
+                width: 100%;
+                height: 55vh;
                    
             
                     }
@@ -229,10 +215,10 @@
                 
                 }
                 @include xl{
-                
+                  
                 }
                 @include breakpoint(1200px){
-                
+                  
                 }
             }
         }
