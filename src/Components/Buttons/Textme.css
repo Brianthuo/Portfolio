@@ -1,0 +1,50 @@
+.text {
+    background-color: #082567;
+    border: 1px solid #00FFFF;
+    padding: 5px;
+    position: relative;
+    width: 8.2em;
+    height: 2.5em;
+    transition: 0.5s;
+    font-size: 17px;
+    border-radius: 0.4em;
+    margin-top: 1rem;
+    
+  }
+  
+  .text p {
+    position: absolute;
+    top: 0.4em;
+    left: 1.15em;
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+    color: #25D366;
+  }
+  
+  .text svg {
+    position: absolute;
+ 
+    top: 0.45em;
+    right: 0.5em;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: 0.5s;
+    height: 1.5em;
+    fill: #fff
+  }
+  
+  .text:hover p {
+    left: 0.5em;
+    color: #fff
+  }
+  
+  .text:hover svg {
+    opacity: 1;
+  }
+  
+  .text:hover {
+    background-color: #25D366;
+  }
+  

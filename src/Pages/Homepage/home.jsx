@@ -43,7 +43,7 @@ const home = () => {
              needs with custom features and functionality to ensure that    
             it meets your unique <br /> business requirements.
             </p>
-            <button>Hire me</button>
+            <button className='hire'>Hire me</button>
             <div className="icon-links">
             <BsWhatsapp className='icon'/>
             <FaFacebookF className='icon' />

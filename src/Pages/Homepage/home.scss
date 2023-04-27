@@ -35,6 +35,7 @@
         display: flex;
         position: fixed;
         margin-top: 1rem;
+        z-index: 100;
 
             @include sm{
                 bottom: 2rem;
@@ -252,7 +253,7 @@
                 color: #ffffffec;
             }
 
-            button{
+            .hire{
                 font-size: 14px;
                 font-weight: 300;
                 margin-top: 10px;

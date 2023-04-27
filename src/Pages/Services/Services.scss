@@ -1,0 +1,241 @@
+@import '../../breakpoints.scss';
+.services{
+    width: 100%;
+    min-height: 90vh;
+    background-color: #082567;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    @include sm{
+        flex-direction: column;
+
+        }
+    @include md{
+    
+    }
+    @include lg{
+    
+    
+    }
+    @include xl{
+    
+    }
+    @include breakpoint(1200px){
+    
+    }
+
+    h2{
+        font-size: 82px;
+        color: #00ffff;
+        font-family: 'Yeon Sung', cursive;
+        @include sm{
+           text-align: center;
+           font-size: 52px;
+           margin-bottom: 1rem;
+           
+    
+            }
+        @include md{
+        
+        }
+        @include lg{
+        
+        
+        }
+        @include xl{
+        
+        }
+        @include breakpoint(1200px){
+        
+        }
+    }
+    
+
+    .image-content{
+        width: 80%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+         
+        @include sm{
+            flex-direction: column;
+            gap: 2rem;
+           
+    
+            }
+        @include md{
+        
+        }
+        @include lg{
+        
+        
+        }
+        @include xl{
+        
+        }
+        @include breakpoint(1200px){
+        
+        }
+
+        .webdev{
+            h4{
+                font-size: 32px;
+                color: #00ffff;
+                text-align: center;
+                font-family: 'Yeon Sung', cursive;
+                @include sm{
+                   text-align: center;
+                   font-size: 28px;
+                   
+                   
+            
+                    }
+                @include md{
+                
+                }
+                @include lg{
+                
+                
+                }
+                @include xl{
+                
+                }
+                @include breakpoint(1200px){
+                
+                }
+            }
+            img{
+                width: 120%;
+                height: 55vh;
+
+                @include sm{
+                width: 100%;
+                height: 55vh;
+                   
+            
+                    }
+                @include md{
+                
+                }
+                @include lg{
+                
+                
+                }
+                @include xl{
+                
+                }
+                @include breakpoint(1200px){
+                
+                }
+            }
+        }
+        .Consulting{
+            h4{
+                font-size: 32px;
+                color: #00ffff;
+                text-align: center;
+                font-family: 'Yeon Sung', cursive;
+                @include sm{
+                   text-align: center;
+                   font-size: 28px;
+                   
+                   
+            
+                    }
+                @include md{
+                
+                }
+                @include lg{
+                
+                
+                }
+                @include xl{
+                
+                }
+                @include breakpoint(1200px){
+                
+                }
+            }
+            img{
+                width: 120%;
+                height: 55vh;
+
+                @include sm{
+                width: 100%;
+                height: 55vh;
+                   
+            
+                    }
+                @include md{
+                
+                }
+                @include lg{
+                
+                
+                }
+                @include xl{
+                
+                }
+                @include breakpoint(1200px){
+                
+                }
+            }
+        }
+        .seo{
+            h4{
+                font-size: 32px;
+                color: #00ffff;
+                text-align: center;
+                font-family: 'Yeon Sung', cursive;
+                @include sm{
+                   text-align: center;
+                   font-size: 28px;
+                   
+                   
+            
+                    }
+                @include md{
+                
+                }
+                @include lg{
+                
+                
+                }
+                @include xl{
+                
+                }
+                @include breakpoint(1200px){
+                
+                }
+            }
+            img{
+                width: 100%;
+                height: 55vh;
+
+                @include sm{
+                    width: 100%;
+                    height: 55vh;
+                   
+            
+                    }
+                @include md{
+                
+                }
+                @include lg{
+                
+                
+                }
+                @include xl{
+                
+                }
+                @include breakpoint(1200px){
+                
+                }
+            }
+        }
+    }
+
+}
